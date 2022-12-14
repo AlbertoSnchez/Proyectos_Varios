@@ -1,0 +1,7 @@
+public class FechaActual {
+    public static void main(String[] args) {
+
+        LocalDate FechaHoy = LocalDate.now();
+        
+    }
+}

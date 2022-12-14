@@ -1,0 +1,20 @@
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+
+public class FechaPedido{
+
+    Calendar c2 = new GregorianCalendar();
+    
+    public int mes = c2.get(Calendar.month);
+    public int anno = c2.get(Calendar.year);
+
+    public FechaPedido(int mes, int anno) {
+        this.mes = mes;
+        this.anno = anno;
+        
+    }
+
+
+    
+
+}
